@@ -2,7 +2,7 @@
 
 const About = () => {
     return (
-        <div className="flex flex-col items-center mt-[10%]">
+        <div className="flex flex-col items-center py-[10%]" id="about-section">
             <div className="w-[60%] flex gap-10">
                 <img src="/images/myImage.jpg" className="size-40"/>
                 <div className="text-center">

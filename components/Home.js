@@ -6,7 +6,7 @@ import { IoIosMail } from "react-icons/io";
 
 const Home = () => {
     return (
-        <div className="flex flex-col items-center pt-[15%] h-screen bg-[#EEEEEE]">
+        <div className="flex flex-col items-center pt-[15%] h-screen bg-[#EEEEEE]" id="home-section">
             <section className="w-[60%] grid grid-cols-12">
                 <div className="col-span-6">
                     <h1 className="font-heading text-3xl font-bold uppercase tracking-[.3rem]">Full-Stack Web Developer</h1>

@@ -5,7 +5,7 @@ const ProjectCard = ({project,index}) => {
     const{title,src,description,techStack,github,live} = project;
     return (
         <div className={`grid grid-cols-12 mt-20 ${index % 2 === 0 ? "" : "flex-row-reverse"}`}>
-            <img src={src} className={`col-span-5 w-[90%] hover:scale-125 cursor-pointer transition-transform ease-in-out duration-300 mx-auto ${index % 2 === 0 ? "order-1" : "order-2"}`}
+            <img src={src} className={`col-span-5 w-[90%] hover:scale-[120%] cursor-pointer transition-transform ease-in-out duration-300 mx-auto ${index % 2 === 0 ? "order-1" : "order-2"}`}
             onClick={()=>{window.open(live, "_blank")}}/>
             <div className={`col-span-7 flex flex-col items-center gap-5 ${index % 2 === 0 ? "order-2" : "order-1"}`}>
                 <h1 className="text-xl font-heading font-bold tracking-wider">{title}</h1>
