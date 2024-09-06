@@ -6,7 +6,7 @@ export const POST = async(request)=>{
     try {
         // Handle CORS
         const response = NextResponse.next();
-        response.headers.set('Access-Control-Allow-Origin', 'https://nakshatra-gunjyal.vercel.app'); // Replace '*' with your domain if needed
+        response.headers.set('Access-Control-Allow-Origin', '*'); // Replace '*' with your domain if needed
         response.headers.set('Access-Control-Allow-Methods', 'POST, OPTIONS');
         response.headers.set('Access-Control-Allow-Headers', 'Content-Type');
         if (request.method === 'OPTIONS') {
