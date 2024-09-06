@@ -18,7 +18,7 @@ const Contact = () => {
             setLoading(true);
             setStatus('loading'); // Set button to loading state
 
-            const response = await fetch('http://localhost:3000/api/sendMail', {
+            const response = await fetch('https://nakshatra-gunjyal.vercel.app/api/sendMail', {
                 method: "POST",
                 body: JSON.stringify(data),
                 headers: { "Content-Type": "application/json" }

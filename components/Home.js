@@ -20,64 +20,64 @@ const Home = () => {
                 <img src="/images/myImage.jpg" alt="my-image" className="morphing-img hidden md:flex col-span-6 mx-auto w-[90%] ml-20"/>
             </section>
             <section className="w-[90%] sm:w-[80%] lg:w-[70%] xl:w-[60%] mt-10 md:mt-24 mb-20 lg:mb-0 flex flex-col md:flex-row items-center">
-    <h1 className="text-center text-lg lg:text-2xl font-code uppercase font-semibold whitespace-nowrap flex gap-5">
-        Tech Stack
-        <span className="hidden md:block">|</span>
-    </h1>
-    <hr className="flex md:hidden w-24 h-[0.1rem] bg-black mt-2 mb-5"/>
-    <div className="flex flex-wrap gap-7 ml-5 sm:ml-0 md:ml-10 mt-5 md:mt-0 font-heading">
-        <div className="relative group">
-            <img src="/images/html-icon.png" className="size-14 rounded-lg cursor-pointer hover:scale-125 transition-transform ease-in-out duration-300"/>
-            <span className="absolute left-1/2 transform -translate-x-1/2  opacity-0 
-            group-hover:translate-y-[-100px] group-hover:opacity-100 transition-all duration-300">
-                HTML
-            </span>
-        </div>
-        <div className="relative group">
-            <img src="/images/css-icon.png" className="size-14 rounded-lg cursor-pointer hover:scale-125 transition-transform ease-in-out duration-300"/>
-            <span className="absolute left-1/2 transform -translate-x-1/2  opacity-0 
-            group-hover:translate-y-[-100px] group-hover:opacity-100 transition-all duration-300">
-                CSS
-            </span>
-        </div>
-        <div className="relative group">
-            <img src="/images/js-icon.png" className="size-14 rounded-lg cursor-pointer hover:scale-125 transition-transform ease-in-out duration-300"/>
-            <span className="absolute left-1/2 transform -translate-x-1/2  opacity-0 
-            group-hover:translate-y-[-100px] group-hover:opacity-100 transition-all duration-300">
-                JavaScript
-            </span>
-        </div>
-        <div className="relative group">
-            <img src="/images/tailwind-css-icon.png" className="size-14 object-contain cursor-pointer hover:scale-125 transition-transform ease-in-out duration-300"/>
-            <span className="absolute left-1/2 transform -translate-x-1/2  opacity-0 
-            group-hover:translate-y-[-100px] group-hover:opacity-100 transition-all duration-300 whitespace-nowrap">
-                Tailwind CSS
-            </span>
-        </div>
-        <div className="relative group">
-            <img src="/images/react-js-icon.png" className="size-14 object-contain cursor-pointer hover:scale-125 transition-transform ease-in-out duration-300"/>
-            <span className="absolute left-1/2 transform -translate-x-1/2  opacity-0 
-            group-hover:translate-y-[-100px] group-hover:opacity-100 transition-all duration-300">
-                React.js
-            </span>
-        </div>
-        <div className="relative group">
-            <img src="/images/nextjs-icon.png" className="size-14 rounded-lg cursor-pointer hover:scale-125 transition-transform ease-in-out duration-300"/>
-            <span className="absolute left-1/2 transform -translate-x-1/2  opacity-0 
-            group-hover:translate-y-[-100px] group-hover:opacity-100 transition-all duration-300">
-                Next.js
-            </span>
-        </div>
-        <div className="relative group">
-            <img src="/images/mongodb-icon.png" className="size-14 object-contain cursor-pointer hover:scale-125 transition-transform ease-in-out duration-300"/>
-            <span className="absolute left-1/2 transform -translate-x-1/2  opacity-0 
-            group-hover:translate-y-[-100px] group-hover:opacity-100 transition-all duration-300">
-                MongoDB
-            </span>
-        </div>
+                <h1 className="text-center text-lg lg:text-2xl font-code uppercase font-semibold whitespace-nowrap flex gap-5">
+                    Tech Stack
+                    <span className="hidden md:block">|</span>
+                </h1>
+                <hr className="flex md:hidden w-24 h-[0.1rem] bg-black mt-2 mb-5"/>
+                <div className="flex flex-wrap gap-7 ml-14 sm:ml-0 md:ml-10 mt-5 md:mt-0 font-heading">
+                    <div className="relative group">
+                        <img src="/images/html-icon.png" className="size-14 rounded-lg cursor-pointer hover:scale-125 transition-transform ease-in-out duration-300"/>
+                        <span className="absolute left-1/2 transform -translate-x-1/2  opacity-0 
+                        group-hover:translate-y-[-100px] group-hover:opacity-100 transition-all duration-300">
+                            HTML
+                        </span>
+                    </div>
+                    <div className="relative group">
+                        <img src="/images/css-icon.png" className="size-14 rounded-lg cursor-pointer hover:scale-125 transition-transform ease-in-out duration-300"/>
+                        <span className="absolute left-1/2 transform -translate-x-1/2  opacity-0 
+                        group-hover:translate-y-[-100px] group-hover:opacity-100 transition-all duration-300">
+                            CSS
+                        </span>
+                    </div>
+                    <div className="relative group">
+                        <img src="/images/js-icon.png" className="size-14 rounded-lg cursor-pointer hover:scale-125 transition-transform ease-in-out duration-300"/>
+                        <span className="absolute left-1/2 transform -translate-x-1/2  opacity-0 
+                        group-hover:translate-y-[-100px] group-hover:opacity-100 transition-all duration-300">
+                            JavaScript
+                        </span>
+                    </div>
+                    <div className="relative group">
+                        <img src="/images/tailwind-css-icon.png" className="size-14 object-contain cursor-pointer hover:scale-125 transition-transform ease-in-out duration-300"/>
+                        <span className="absolute left-1/2 transform -translate-x-1/2  opacity-0 
+                        group-hover:translate-y-[-100px] group-hover:opacity-100 transition-all duration-300 whitespace-nowrap">
+                            Tailwind CSS
+                        </span>
+                    </div>
+                    <div className="relative group">
+                        <img src="/images/react-js-icon.png" className="size-14 object-contain cursor-pointer hover:scale-125 transition-transform ease-in-out duration-300"/>
+                        <span className="absolute left-1/2 transform -translate-x-1/2  opacity-0 
+                        group-hover:translate-y-[-100px] group-hover:opacity-100 transition-all duration-300">
+                            React.js
+                        </span>
+                    </div>
+                    <div className="relative group">
+                        <img src="/images/nextjs-icon.png" className="size-14 rounded-lg cursor-pointer hover:scale-125 transition-transform ease-in-out duration-300"/>
+                        <span className="absolute left-1/2 transform -translate-x-1/2  opacity-0 
+                        group-hover:translate-y-[-100px] group-hover:opacity-100 transition-all duration-300">
+                            Next.js
+                        </span>
+                    </div>
+                    <div className="relative group">
+                        <img src="/images/mongodb-icon.png" className="size-14 object-contain cursor-pointer hover:scale-125 transition-transform ease-in-out duration-300"/>
+                        <span className="absolute left-1/2 transform -translate-x-1/2  opacity-0 
+                        group-hover:translate-y-[-100px] group-hover:opacity-100 transition-all duration-300">
+                            MongoDB
+                        </span>
+                    </div>
 
-    </div>
-</section>
+                </div>
+            </section>
 
         </div>
     )

@@ -4,6 +4,16 @@ import nodemailer from 'nodemailer';
 export const POST = async(request)=>{
 
     try {
+        // Handle CORS
+        const response = NextResponse.next();
+        response.headers.set('Access-Control-Allow-Origin', '*'); // Replace '*' with your domain if needed
+        response.headers.set('Access-Control-Allow-Methods', 'POST, OPTIONS');
+        response.headers.set('Access-Control-Allow-Headers', 'Content-Type');
+        if (request.method === 'OPTIONS') {
+            // Preflight request handling
+            return response;
+        }
+
         const { name, email, message } = await request.json();
         console.log(name,email,message);
         console.log(process.env.GMAIL_USER,process.env.GMAIL_PASS)
