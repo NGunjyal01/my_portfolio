@@ -82,7 +82,7 @@ const Contact = () => {
     return (
         <div className="flex flex-col items-center pt-[15%] md:pt-[8%]" id="contact-section">
             <div className="w-[90%] md:w-[70%] flex flex-col items-center">
-                <h1 className="font-heading font-semibold uppercase text-2xl tracking-widest">Let's Connect</h1>
+                <h1 className="font-heading font-semibold uppercase text-2xl tracking-widest">Let&apos;s Connect</h1>
                 <div className="grid grid-cols-12 mt-10">
                     <img src="/images/contact-me.png" className="hidden md:block col-span-7 w-full" />
                     <form className="col-span-full md:col-span-5 mx-auto w-full md:w-[80%] font-sans tracking-wide" onSubmit={handleSubmit(handleOnSubmit)}>
