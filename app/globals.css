@@ -101,34 +101,3 @@ html {
   }
 }
 
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* Rotating text styling */
-.rotating-text {
-  position: relative;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  animation: rotate 10s linear infinite; /* Controls the speed */
-}
-
-.rotating-text::before {
-  content: "FRONT-END DEVELOPER";
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  text-align: center;
-  transform: rotate(-90deg);
-  transform-origin: center;
-}

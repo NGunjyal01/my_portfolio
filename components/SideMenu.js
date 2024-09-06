@@ -28,7 +28,7 @@ const SideMenu = () => {
     }, [isOpen]);
 
     return (
-        <div className="relative">
+        <div className="relative md:hidden">
             <button onClick={openMenu} className="absolute right-5 hover:text-blue-500 duration-300">
                 <RxHamburgerMenu size={25}/>
             </button>
