@@ -11,7 +11,7 @@ const Home = () => {
                         Full-Stack Web Developer
                     </h1>
                     <p className="font-sans my-5 tracking-wide">
-                        Hi, I'm Nakshatra Gunjyal. A passionate Full-Stack Web Developer based in UttarPradesh, India.
+                        Hi, I&apos;m Nakshatra Gunjyal. A passionate Full-Stack Web Developer based in UttarPradesh, India.
                     </p>
                     <div className="w-full flex justify-center md:justify-start">
                         <SocalMediaLinks/>

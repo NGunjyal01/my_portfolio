@@ -10,9 +10,9 @@ const About = () => {
                 <div className="text-center col-span-full md:col-span-6">
                     <h1 className="font-heading text-xl md:text-2xl font-bold uppercase tracking-widest mt-10 md:mt-5">About Me</h1>
                     <p className="mt-5 md:mt-10 font-sans tracking-wider text-xs md:text-base">
-                        Hi, I'm Nakshatra Gunjyal, a full-stack web developer with experience in building both frontend and backend 
+                        Hi, I&apos;m Nakshatra Gunjyal, a full-stack web developer with experience in building both frontend and backend 
                         applications. I enjoy creating user-friendly websites and scalable solutions using technologies like React, Next.js, 
-                        Node.js, and MongoDB. I'm passionate about turning ideas into functional and efficient digital products.
+                        Node.js, and MongoDB. I&apos;m passionate about turning ideas into functional and efficient digital products.
                     </p>
                 </div>
             </div>
