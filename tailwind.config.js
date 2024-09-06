@@ -18,6 +18,9 @@ module.exports = {
         serif: ['Merriweather', 'Playfair Display', 'serif'],
         code: ['Source Code Pro', 'Fira Code', 'monospace'],
       },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite', // slow circular motion
+      },
     },
   },
   plugins: [],
