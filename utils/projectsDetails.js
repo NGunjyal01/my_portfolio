@@ -1,10 +1,17 @@
 export const projectDetails = [
+    {title: "PulseBoard",
+        src: "/images/pulseboard.png",
+        description: "A real-time collaborative dashboard app that enables teams to create, edit, and share dashboards with live data sync and role-based access.",
+        techStack: ["Next.js","React.js","TailwindCSS","Zustand","Node.js","Express.js","MongoDB","WebSockets (Socket.IO)"],
+        github: "https://github.com/NGunjyal01/Pulseboard", 
+        live: "https://pulseboard-xi.vercel.app/"
+    },
     {title:"Hostel Eats",
-    src:'/images/hostel-eats.png',
-    description: "A platform that simplifies food ordering from hostel canteens made especially for the students of MNNIT Allahabad",
-    techStack: ["React.js",'TailwindCSS','Node.js','Express.js','MongoDB','framer-motion'],
-    github:'https://github.com/NGunjyal01/hostel_eats',
-    live:'https://hostel-eats-alpha.vercel.app/'
+        src:'/images/hostel-eats.png',
+        description: "A platform that simplifies food ordering from hostel canteens made especially for the students of MNNIT Allahabad",
+        techStack: ["React.js",'TailwindCSS','Node.js','Express.js','MongoDB','framer-motion'],
+        github:'https://github.com/NGunjyal01/hostel_eats',
+        live:'https://hostel-eats-alpha.vercel.app/'
     },
     {title:"Med Evolv",
         src:'/images/med-evolv.png',
